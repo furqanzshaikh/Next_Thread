@@ -7,6 +7,7 @@ name:string;
 username:string;
 imgUrl:string;
 bio:string;
+type?:'User' | 'Community'
 }
 
 const ProfileHeader = ({
